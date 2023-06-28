@@ -41,10 +41,10 @@
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 900px;
     position:relative;
 }
-.content-title {
+/* .content-title {
     font-weight: normal;
     font-size: 66px;
     margin: -10px 0 0 0;
@@ -52,9 +52,9 @@
     padding: 0 10px;
     box-sizing: border-box;
     color: black;
-}
+} */
 .content-desc {
-    margin: 0;
+    margin: 26px 0;
     font-size: 20px;
     box-sizing: border-box;
     color: white;
@@ -68,6 +68,12 @@
     margin-left: -1px;
     content: "";
     background: rgba(255, 255, 255, 0.07);
+}
+#zaonian {
+    padding: 10px 0;
+}
+#ciqin {
+    padding: 120px 0;
 }
 .item {
     padding: 60px 0;
@@ -87,25 +93,25 @@
     margin-top: -42px;
 }
 #cuotuo::before {
-    margin-top: -120px;
+    margin-top: -74px;
 }
 #xianfu::before {
-    margin-top: -14px;
+    margin-top: 2px;
 }
 #hanlin::before {
-    margin-top: -42px;
+    margin-top: -13px;
 }
 #lidu::before {
-    margin-top: -59px;
+    margin-top: -28px;
 }
 #chenji::before {
-    margin-top: 32px;
+    margin-top: 46px;
 }
 #anshi::before {
-    margin-top: -148px;
+    margin-top: -125px;
 }
 #bingshi::before {
-    margin-top: -58px;
+    margin-top: -66px;
 }
 .item:before {
     content: attr(data-text);
@@ -149,7 +155,7 @@
 }
 .img {
     max-width: 100%;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: -15px 10px 15px rgba(0, 0, 0, 0.4);
 }
 .subtitle {
     color: rgba(255, 255, 255, 0.571);
